@@ -4,7 +4,7 @@ import Q from 'q';
 import { parseString, Parser } from 'xml2js'
 import token from './token';
 
-let bot = new Bot({token: });
+let bot = new Bot({token: token});
 
 let parser = new Parser({
     normalizeTags: true
